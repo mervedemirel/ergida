@@ -11,12 +11,6 @@ const Footer = ({t}) => {
           <div className="col-12 d-flex align-items-center">
             <div className="row">
               <div className="col-12 col-md-4">
-                <img
-                  src="../../../static/images/logo.png"
-                  className="logo"
-                  alt="Ergıda Tarım Logo"
-                  style={{ height: "66px" }}
-                />
                 <h4 className="text-white mt-2">{t('antalyaContact')}</h4>
                 <p className="m-0 mt-1">
                   Bağlık Mahallesi, Gödene Caddesi, No: 189 <br />
@@ -54,39 +48,39 @@ const Footer = ({t}) => {
                 <div className="row m-o p-0">
                   <div className="col-12 col-md-6 p-0 m-0 d-flex flex-column">
                     <Link href="/kurumsal">
-                      <a style={{ textDecoration: "none", color: "white" }}>
+                      <a style={{ textDecoration: "none", color: "white", fontSize: "14px"}}>
                         {t('mobileLinks', {returnObjects: true}).kurumsal.text}
                       </a>
                     </Link>
                     <Link href="/hizmetlerimiz">
-                      <a style={{ textDecoration: "none", color: "white" }}>
+                      <a style={{ textDecoration: "none", color: "white", fontSize: "14px" }}>
                       {t('mobileLinks', {returnObjects: true}).hizmetler.text}
                       </a>
                     </Link>
                     <Link href="/meyve">
-                      <a style={{ textDecoration: "none", color: "white" }}>
-                      {t('mobileLinks', {returnObjects: true}).kurumsal.meyve}
+                      <a style={{ textDecoration: "none", color: "white", fontSize: "14px" }}>
+                      {t('mobileLinks', {returnObjects: true}).meyve.text}
                       </a>
                     </Link>
                     <Link href="/sebze">
-                      <a style={{ textDecoration: "none", color: "white" }}>
+                      <a style={{ textDecoration: "none", color: "white", fontSize: "14px" }}>
                       {t('mobileLinks', {returnObjects: true}).urun.text}
-                      </a>
-                    </Link>
-                    <Link href="/narenciye">
-                      <a style={{ textDecoration: "none", color: "white" }}>
-                      {t('mobileLinks', {returnObjects: true}).citrus.text}
                       </a>
                     </Link>
                   </div>
                   <div className="col-12 col-md-6 p-0 m-0 d-flex flex-column">
+                      <Link href="/narenciye">
+                      <a style={{ textDecoration: "none", color: "white", fontSize: "14px" }}>
+                      {t('mobileLinks', {returnObjects: true}).citrus.text}
+                      </a>
+                    </Link>
                     <Link href="/galeri">
-                      <a style={{ textDecoration: "none", color: "white" }}>
+                      <a style={{ textDecoration: "none", color: "white", fontSize: "14px" }}>
                       {t('mobileLinks', {returnObjects: true}).gallery.text}
                       </a>
                     </Link>
                     <Link href="/iletisim">
-                      <a style={{ textDecoration: "none", color: "white" }}>
+                      <a style={{ textDecoration: "none", color: "white", fontSize: "14px" }}>
                       {t('mobileLinks', {returnObjects: true}).contact.text}
                       </a>
                     </Link>
@@ -97,16 +91,28 @@ const Footer = ({t}) => {
           </div>
           <div className="col-12 d-flex mt-3 mt-md-0">
             <div className="row m-0 p-0 w-100">
-              <div className="col-12 col-md-6 d-flex align-items-center">
-                Copyright &copy; ErGıda Tarım 2019 - {t('allRights')}
+              <div className="col-12 col-md-6 d-flex align-items-center" style={{ top: "40px" }} >
+                <a>Copyright &copy; </a> 
+                <a style= {{color: "white", fontSize: "1.3rem", fontFamily: "Tahoma"}}> &nbsp;VOGAART&nbsp; </a> 
+                <a>2019 - {t('allRights')} </a>
               </div>
               <div className="col-12 col-md-6 d-flex justify-content-end align-items-center">
+                <div className="grid-container">
+                <div className="grid-item">
+                <img
+                  src="../../../static/images/kırmızıLogo-01.png"
+                  className="logo"
+                  alt="Ergıda Tarım Logo"
+                  style={{ height: "66px" }}
+                />
+                </div>
+                <div className="grid-item">
                 <a
                   href="https://www.facebook.com/ergida48"
                   style={{ color: "white", fontSize: "1.5rem" }}
                   className="mr-3"
                 >
-                  <FaFacebookSquare />
+                  &nbsp;<FaFacebookSquare />
                 </a>
                 <a
                   href="https://twitter.com/"
@@ -121,6 +127,8 @@ const Footer = ({t}) => {
                 >
                   <FaInstagram />
                 </a>
+                </div>
+                </div>
               </div>
             </div>
           </div>
@@ -131,6 +139,10 @@ const Footer = ({t}) => {
         .Footer {
           background: #545454;
           color: white;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto;
         }
       `}</style>
     </div>
