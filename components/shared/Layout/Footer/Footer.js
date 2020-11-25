@@ -91,17 +91,17 @@ const Footer = ({t}) => {
           </div>
           <div className="col-12 d-flex mt-3 mt-md-0">
             <div className="row m-0 p-0 w-100">
-              <div className="col-12 col-md-6 d-flex align-items-center" style={{ top: "40px" }} >
+              <div className="col-12 col-md-6 d-flex align-items-center flex-column mt-4" style={{ top: "40px"}} >
                 <a>Copyright &copy; </a> 
                 <a style= {{color: "white", fontSize: "1.3rem", fontFamily: "Tahoma"}}> &nbsp;VOGAART&nbsp; </a> 
                 <a>2019 - {t('allRights')} </a>
               </div>
-              <div className="col-12 col-md-6 d-flex justify-content-end align-items-center">
+              <div className="col-12 col-md-6 d-flex justify-content-end align-items-center flex-column">
                 <div className="grid-container">
                 <div className="grid-item">
                 <img
                   src="../../../static/images/kırmızıLogo-01.png"
-                  className="logo"
+                  className="logo mt-5"
                   alt="Ergıda Tarım Logo"
                   style={{ height: "66px" }}
                 />
