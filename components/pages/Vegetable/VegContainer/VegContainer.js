@@ -12,7 +12,8 @@ class VegContainer extends Component {
     }
 
     componentDidMount() {
-        axios.get("https://admin.ergidatarim.com.tr/products?category=vegetable").then(res => {
+        //axios.get("https://admin.ergidatarim.com.tr/products?category=vegetable").then(res => {
+        axios.get("https://admin.ergidatarim.com.tr/products?").then(res => {
             const products = res.data;
             this.setState({products})
         })
