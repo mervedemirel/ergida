@@ -46,7 +46,7 @@ const VegetablePageIndex = () => {
       a.text {
         text-transform: uppercase;
       }
-        @media screen and (max-width: 1024px){
+       /* @media screen and (max-width: 1024px){
             .text{
                 top: 40%;
                 font-size: 10px;
@@ -56,7 +56,7 @@ const VegetablePageIndex = () => {
             .text{
                 opacity: -1;
             }
-        }
+        }*/
     `}</style>
         </>
     );
