@@ -48,7 +48,7 @@ const VegetablePageIndex = () => {
       }
         @media screen and (max-width: 1024px){
             .text{
-                top: 40%;
+                top: 42%;
                 font-size: 10px;
             }
         }
