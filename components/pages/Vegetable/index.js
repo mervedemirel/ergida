@@ -36,7 +36,7 @@ const VegetablePageIndex = () => {
         <style jsx>{`
       .text {
         position: absolute;
-        top: 58%;
+        top: 60%;
         left: 2%;
         padding: 30px;
         color: white;
