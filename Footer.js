@@ -93,7 +93,7 @@ const Footer = ({t}) => {
             <div className="row m-0 p-0 w-100">
               <div className="col-12 col-md-6 d-flex align-items-center flex-column mt-4" style={{ top: "40px"}} >
                 <a>Copyright &copy; </a> 
-                <a style= {{color: "white", fontSize: "1.3rem", fontFamily: "Tahoma"}}> <a href="https://vogaart.com">&nbsp;VOGAART&nbsp;</a></a> 
+                <a style= {{color: "white", fontSize: "1.3rem", fontFamily: "Tahoma"}}>&nbsp;VOGAART&nbsp;</a> 
                 <a>2019 - {t('allRights')} </a>
               </div>
               <div className="col-12 col-md-6 d-flex justify-content-end align-items-center flex-column">
