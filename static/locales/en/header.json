@@ -1,0 +1,61 @@
+{
+  "links": [
+    {
+      "text": "COMPANY",
+      "url": "/kurumsal"
+    },
+    {
+      "text": "OUR SERVICES",
+      "url": "/hizmetlerimiz"
+    },
+    {
+      "text": "PRODUCTS",
+      "url": "/urunler"
+    },
+    {
+      "text": "GALLERY",
+      "url": "/galeri"
+    },
+    {
+      "text": "CONTACT",
+      "url": "/iletisim"
+    }
+  ],
+  "drop1": "VEGETABLE",
+  "drop2": "CITRUS",
+  "drop3": "FRUIT",
+  "mobileLinks": {
+    "kurumsal": {
+      "text": "COMPANY",
+      "link": "/kurumsal"
+    },
+    "hizmetler": {
+      "text": "OUR SERVICES",
+      "link": "/hizmetlerimiz"
+    },
+    "urun": {
+      "text": "VEGETABLES",
+      "link": "/sebze"
+    },
+    "meyve": {
+      "text": "FRUIT",
+      "link": "/meyve"
+    },
+    "gallery": {
+      "text": "GALLERY",
+      "link": "/galeri"
+    },
+    "contact": {
+      "text": "CONTACT",
+      "link": "/iletisim"
+    },
+    "citrus": {
+      "text": "CITRUS",
+      "link": "/narenciye"
+    }
+  },
+  "antalyaContact": "Contact - Antalya",
+  "muglaContact": "Contact - Muğla",
+  "quickLinks": "Quick Links",
+  "allRights": "All rights reserved"
+}

@@ -1,0 +1,61 @@
+{
+  "links": [
+    {
+      "text": "KURUMSAL",
+      "url": "/kurumsal"
+    },
+    {
+      "text": "HİZMETLERİMİZ",
+      "url": "/hizmetlerimiz"
+    },
+    {
+      "text": "ÜRÜNLER",
+      "url": "/urunler"
+    },
+    {
+      "text": "GALERİ",
+      "url": "/galeri"
+    },
+    {
+      "text": "İLETİŞİM",
+      "url": "/iletisim"
+    }
+  ],
+  "drop1": "SEBZE",
+  "drop2": "NARENCİYE",
+  "drop3": "MEYVE",
+  "mobileLinks": {
+    "kurumsal": {
+      "text": "KURUMSAL",
+      "link": "/kurumsal"
+    },
+    "hizmetler": {
+      "text": "HİZMETLERİMİZ",
+      "link": "/hizmetlerimiz"
+    },
+    "urun": {
+      "text": "SEBZE",
+      "link": "/sebze"
+    },
+    "meyve": {
+      "text": "MEYVE",
+      "link": "/meyve"
+    },
+    "gallery": {
+      "text": "GALERİ",
+      "link": "/galeri"
+    },
+    "contact": {
+      "text": "İLETİŞİM",
+      "link": "/iletisim"
+    },
+    "citrus": {
+      "text": "NARENCİYE",
+      "link": "/narenciye"
+    }
+  },
+  "antalyaContact": "Antalya İletişim",
+  "muglaContact": "Muğla İletişim",
+  "quickLinks": "Hızlı Bağlantılar",
+  "allRights": "Tüm hakları saklıdır."
+}
