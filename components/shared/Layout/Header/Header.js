@@ -67,7 +67,7 @@ class Header extends Component {
             <Link href="/">
               <a className="navbar-brand" href="#" aria-label="Anasayfaya Dön">
                 <img
-                  src="../../../static/images/logo.png"
+                  src="../../../static/images/logoer.png"
                   className="logo"
                   alt="Ergıda Tarım Logo"
                   style={{ height: "66px" }}

@@ -100,7 +100,7 @@ const Footer = ({t}) => {
                 <div className="grid-container">
                 <div className="grid-item">
                 <img
-                  src="../../../static/images/kırmızıLogo-01.png"
+                  src="../../../static/images/logoer.png"
                   className="logo mt-5"
                   alt="Ergıda Tarım Logo"
                   style={{ height: "66px" }}
