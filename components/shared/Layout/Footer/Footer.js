@@ -103,7 +103,7 @@ const Footer = ({t}) => {
                   src="../../../static/images/logoer.png"
                   className="logo mt-5"
                   alt="Ergıda Tarım Logo"
-                  style={{ height: "75px" }}
+                  style={{ height: "85px" }}
                 />
                 </div>
                 <div className="grid-item">

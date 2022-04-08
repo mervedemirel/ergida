@@ -29,7 +29,7 @@ const Layout = ({children, t}) => {
             <Menu left customBurgerIcon={false} isOpen={menuIsOpen} disableAutoFocus width={'240px'}>
                 <Link href="/">
                     <a className="menu-item">
-                        <img className="Nav-logo" style={{maxHeight: '80px'}} src="../../../static/images/logoer.png"
+                        <img className="Nav-logo" style={{maxHeight: '85px'}} src="../../../static/images/logoer.png"
                              alt="Ergıda Tarım Logosu"/>
                     </a>
                 </Link>
