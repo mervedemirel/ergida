@@ -17,10 +17,10 @@ const Footer = ({t}) => {
                   Er Gıda Paketleme Tesisi, Kumluca / Antalya
                 </p>
                 <p className="p-0 m-0 mt-md-2">
-                  <b><IoIosPhonePortrait style={{fontSize: '1.3rem'}} /></b> <a href="tel:+902428870222" style={{textDecoration: 'none', color: 'white'}}>+90 242 887 0 222</a>
+                  <b><IoIosPhonePortrait style={{fontSize: '1.3rem'}} /></b> <a href="tel:+905321548088" style={{textDecoration: 'none', color: 'white'}}>+90 532 154 80 88</a>
                 </p>
                 <p className="p-0 m-0 mt-md-1">
-                  <b><IoIosPhonePortrait style={{fontSize: '1.3rem'}} /></b> <a href="tel:+905468870222" style={{textDecoration: 'none', color: 'white'}}>+90 546 887 0 222</a>
+                  <b><IoIosPhonePortrait style={{fontSize: '1.3rem'}} /></b> <a href="tel:+31638494233" style={{textDecoration: 'none', color: 'white'}}>+31 638494233</a>
                 </p>
                 <p className="p-0 m-0 mt-md-1">
                 <b><IoMdMail/></b> <a style={{textDecoration: 'none', color: 'white'}} href="mailto:ergidatarim@hotmail.com">ergidatarim@hotmail.com</a>
@@ -34,10 +34,10 @@ const Footer = ({t}) => {
                   Fethiye Toptancı Hali, M Blok No: 132, Fethiye/Muğla
                 </p>
                 <p className="p-0 m-0 mt-md-2">
-                  <b><IoIosPhonePortrait style={{fontSize: '1.3rem'}} /></b> <a href="tel:+902428870222" style={{textDecoration: 'none', color: 'white'}}>+90 242 887 0 222</a>
+                  <b><IoIosPhonePortrait style={{fontSize: '1.3rem'}} /></b> <a href="tel:+905321548088" style={{textDecoration: 'none', color: 'white'}}>+90 532 154 80 88</a>
                 </p>
                 <p className="p-0 m-0 mt-md-1">
-                  <b><IoIosPhonePortrait style={{fontSize: '1.3rem'}} /></b> <a href="tel:+905468870222" style={{textDecoration: 'none', color: 'white'}}>+90 546 887 0 222</a>
+                  <b><IoIosPhonePortrait style={{fontSize: '1.3rem'}} /></b> <a href="tel:+31638494233" style={{textDecoration: 'none', color: 'white'}}>+31 638494233</a>
                 </p>
                 <p className="p-0 m-0 mt-md-1">
                   <b><IoMdMail/></b> <a style={{textDecoration: 'none', color: 'white'}} href="mailto:ergidatarim@hotmail.com">ergidatarim@hotmail.com</a>
@@ -103,7 +103,7 @@ const Footer = ({t}) => {
                   src="../../../static/images/logoer.png"
                   className="logo mt-5"
                   alt="Ergıda Tarım Logo"
-                  style={{ height: "66px" }}
+                  style={{ height: "75px" }}
                 />
                 </div>
                 <div className="grid-item">

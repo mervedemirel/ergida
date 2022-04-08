@@ -34,11 +34,11 @@ class Header extends Component {
       <>
         <div className="SubNav container d-flex justify-content-end align-items-center position-relative">
           <a
-            href="tel:+905468870222"
+            href="tel:+905321548088"
             className="mr-auto"
             style={{ fontSize: "1rem", color: "black" }}
           >
-            <FaPhone style={{ transform: "rotate(90deg)" }} /> +90 546 887 0 222
+            <FaPhone style={{ transform: "rotate(90deg)" }} /> +90 532 154 80 88
           </a>
           <a
             href="https://www.facebook.com/ergida48"
@@ -70,7 +70,7 @@ class Header extends Component {
                   src="../../../static/images/logoer.png"
                   className="logo"
                   alt="Ergıda Tarım Logo"
-                  style={{ height: "66px" }}
+                  style={{ height: "75px" }}
                 />
               </a>
             </Link>

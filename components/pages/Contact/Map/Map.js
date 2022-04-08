@@ -17,16 +17,10 @@ const Map = ({t}) => {
                         <div className="row">
                             <div className="col-sm-6">
                                 <b>{t('telefon')}</b> <br/>
-                                0 242 887 02 22 <br/>
-                                0 543 887 02 22 <br/>
-                                0 546 887 02 22 <br/>
-                                0 532 154 80 88
+                                0 532 154 80 88 <br/>
+                                +31638494233
                             </div>
                             <div className="col-sm-6">
-                                <div>
-                                    <b>Fax</b> <br/>
-                                    0 242 887 02 22
-                                </div>
                                 <div>
                                     <b>{t('mail')}</b> <br/>
                                     ergidatarim@hotmail.com
@@ -45,16 +39,10 @@ const Map = ({t}) => {
                         <div className="row">
                             <div className="col-sm-6">
                                 <b>{t('telefon')}</b> <br/>
-                                0 242 887 02 22 <br/>
-                                0 543 887 02 22 <br/>
-                                0 546 887 02 22 <br/>
-                                0 532 154 80 88
+                                0 532 154 80 88 <br/>
+                                +31638494233
                             </div>
                             <div className="col-sm-6">
-                                <div>
-                                    <b>Fax</b> <br/>
-                                    0 242 887 02 22
-                                </div>
                                 <div>
                                     <b>{t('mail')}</b> <br/>
                                     ergidatarim@hotmail.com
