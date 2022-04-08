@@ -70,7 +70,7 @@ class Header extends Component {
                   src="../../../static/images/logoer.png"
                   className="logo"
                   alt="Ergıda Tarım Logo"
-                  style={{ height: "85px" }}
+                  style={{ height: "80px" }}
                 />
               </a>
             </Link>
