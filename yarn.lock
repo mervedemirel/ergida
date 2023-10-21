@@ -330,7 +330,7 @@
     "minimatch" "^3.0.4"
     "shell-quote" "^1.7.2"
 
-"@netlify/plugin-nextjs@3.9.2":
+"@netlify/plugin-nextjs@^3.9.2":
   "integrity" "sha512-fa7G5p2p8uOHstb0aaS6P8qKJ/ixcrpQzJwz92LPUBVXAsUnhspes7lPIDbxmLt+DZiA9DBW9z1IlUGK98WIGQ=="
   "resolved" "https://registry.npmjs.org/@netlify/plugin-nextjs/-/plugin-nextjs-3.9.2.tgz"
   "version" "3.9.2"
